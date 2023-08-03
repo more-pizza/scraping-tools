@@ -1,6 +1,6 @@
 {
   "name": "@more-pizza/playwright-scraper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Daniel Hayes",
   "license": "MIT",
   "types": "./dist/index.d.ts",
