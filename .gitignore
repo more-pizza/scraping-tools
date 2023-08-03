@@ -1,0 +1,11 @@
+# common ignore files
+.DS_Store
+
+# environment variables
+.env
+
+# builds & dependencies
+dist
+node_modules/
+.turbo
+
