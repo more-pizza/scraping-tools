@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create Release P.ull Request
+      - name: Create Release Pull Request
         uses: changesets/action@v1
         with:
           publish: npm run release

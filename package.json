@@ -18,6 +18,7 @@
     "start": "cd apps/server && npm run start",
     "build": "turbo build",
     "change": "npx changeset",
+    "release": "npm run build && npx changeset publish",
     "mongo": "docker run -d -p 27017:27017 mongo",
     "mongo:console": "docker exec -ti $(docker ps --filter 'ancestor=mongo' --format '{{.Names}}') bin/bash"
   }
